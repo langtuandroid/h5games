@@ -1,4 +1,5 @@
-const cacheName = "GmG-Goal io-1.0";
+const cacheName = "GmG-Goal io-1.0" + "-20250808T135015";
+
 const contentToCache = [
     "Build/gmg_goal_io.loader.js",
     "Build/gmg_goal_io.framework.js.gz",
