@@ -1,4 +1,4 @@
-const cacheName = "GmG-Goal io-1.0" + "-20250808T135015";
+const cacheName = "GmG-Goal io-1.0" + "-20250809T171650";
 
 const contentToCache = [
     "Build/gmg_goal_io.loader.js",
@@ -29,7 +29,7 @@ self.addEventListener('install', function (e) {
         `/StreamingAssets/data/DefaultPackage/${w.FileName}`
       );
 
-      console.log('[SW] Pre-caching bundle files:', bundleFiles);
+      //console.log('[SW] Pre-caching bundle files:', bundleFiles);
       await cache.addAll(bundleFiles);
     } catch (err) {
       console.error('[SW] Failed to preload bundles from catalog:', err);
